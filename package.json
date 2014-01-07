@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "description": "gulp plugin for dart2js",
   "main": "index.js",
+  "repository": "revathskumar/gulp-dart2js",
+  "author": {
+    "name": "Revath S Kumar",
+    "email": "rsk@revathskumar.com",
+    "url": "http://blog.revathskumar.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -11,7 +20,6 @@
     "dart",
     "dart2js"
   ],
-  "author": "Revath S Kumar",
   "license": "MIT",
   "dependencies": {
     "gulp-util": "~2.2.6",
