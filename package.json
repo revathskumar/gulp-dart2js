@@ -1,6 +1,6 @@
 {
   "name": "gulp-dart2js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gulp plugin for dart2js",
   "main": "index.js",
   "repository": "revathskumar/gulp-dart2js",
