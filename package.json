@@ -3,7 +3,10 @@
   "version": "0.0.2",
   "description": "gulp plugin for dart2js",
   "main": "index.js",
-  "repository": "revathskumar/gulp-dart2js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/revathskumar/gulp-dart2js.git"
+  }
   "author": {
     "name": "Revath S Kumar",
     "email": "rsk@revathskumar.com",
