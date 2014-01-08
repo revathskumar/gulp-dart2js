@@ -8,9 +8,10 @@
 Requires [dart](https://www.dartlang.org/) to be installed and in your PATH.
 
 - Ubuntu: 
-    
-    sudo add-apt-repository ppa:hachre/dart
+    ```
+    sudo add-apt-repository ppa:hachre/dart  &  
     sudo apt-get install dartsdk
+    ```
     
 
 
