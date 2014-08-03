@@ -14,7 +14,8 @@ module.exports = function (out, options) {
       return cb(null, file);
     }
 
-    var filename = gutil.replaceExtension(file.path, '.js')
+    var fileExtension = options.fileExtension || '.js'
+    var filename = gutil.replaceExtension(file.path, fileExtension)
     filename = filename.split('/');
     var destPath = process.cwd() + '/' +  out;
     var dest = destPath + filename[filename.length -1] ;
